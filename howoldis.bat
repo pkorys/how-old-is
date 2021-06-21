@@ -1,0 +1,2 @@
+@py howoldis.py %*
+@pause
