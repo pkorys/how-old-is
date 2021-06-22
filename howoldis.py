@@ -2,7 +2,6 @@ import requests, bs4, re, sys
 from datetime import date, datetime
 
 def main():
-    page = None
     if len(sys.argv) < 2:
         print('Input person you want to find: ', end = '')
         page = download_page(get_arguments())
